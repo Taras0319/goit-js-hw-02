@@ -6,6 +6,7 @@ function formatMessage(message, maxLength) {
     }
 }
 
+// ======================================
 
 console.log(formatMessage("Curabitur ligula sapien", 16)); // "Curabitur ligula..."
 console.log(formatMessage("Curabitur ligula sapien", 23)); // "Curabitur ligula sapien"
